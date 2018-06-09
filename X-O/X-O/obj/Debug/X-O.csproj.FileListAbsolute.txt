@@ -1,0 +1,11 @@
+C:\Users\user\source\repos\X-O\X-O\bin\Debug\X-O.exe.config
+C:\Users\user\source\repos\X-O\X-O\bin\Debug\X-O.exe
+C:\Users\user\source\repos\X-O\X-O\bin\Debug\X-O.pdb
+C:\Users\user\source\repos\X-O\X-O\obj\Debug\X-O.csprojResolveAssemblyReference.cache
+C:\Users\user\source\repos\X-O\X-O\obj\Debug\X_O.Properties.Resources.resources
+C:\Users\user\source\repos\X-O\X-O\obj\Debug\X-O.csproj.GenerateResource.Cache
+C:\Users\user\source\repos\X-O\X-O\obj\Debug\X-O.csproj.CoreCompileInputs.cache
+C:\Users\user\source\repos\X-O\X-O\obj\Debug\X-O.exe
+C:\Users\user\source\repos\X-O\X-O\obj\Debug\X-O.pdb
+C:\Users\user\source\repos\X-O\X-O\obj\Debug\X_O.Form1.resources
+C:\Users\user\source\repos\X-O\X-O\obj\Debug\X_O.Form2.resources
