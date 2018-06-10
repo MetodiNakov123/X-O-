@@ -12,9 +12,14 @@ namespace X_O
 {
     public partial class Form2 : Form
     {
+        public String Player1;
+        public String Player2;
+
         public Form2()
         {
             InitializeComponent();
+            Player1 = "Igrac 1";
+            Player2 = "Igrac 2";
         }
 
         private void label1_Click(object sender, EventArgs e)
@@ -24,14 +29,23 @@ namespace X_O
 
         private void button1_Click(object sender, EventArgs e)
         {
-            Form1.postaviIme(p1.Text, p2.Text);
+            if (!p1.Text.Trim().ToString().Equals(""))
+            {
+                Player1 = p1.Text.Trim().ToString();
+            }
+            if (!p2.Text.Trim().ToString().Equals(""))
+            {
+                Player2 = p2.Text.Trim().ToString();
+            }
             this.Close();
         }
 
         private void p2_KeyPress(object sender, KeyPressEventArgs e) // ako si vo posledniot TextBox za iminja i kliknesh Enter avtomatski kako da si kliknal Играј
         {
+           
             if (e.KeyChar.ToString() == "\r")
                 button1.PerformClick();
+            
         }
     }
 }

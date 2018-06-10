@@ -243,27 +243,28 @@
             // 
             this.p1.Location = new System.Drawing.Point(13, 271);
             this.p1.Name = "p1";
+            this.p1.ReadOnly = true;
             this.p1.Size = new System.Drawing.Size(74, 20);
             this.p1.TabIndex = 16;
             this.p1.Text = "Играч 1";
             this.p1.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            this.p1.TextChanged += new System.EventHandler(this.p1_TextChanged);
             // 
             // p2
             // 
             this.p2.Location = new System.Drawing.Point(175, 270);
             this.p2.Name = "p2";
+            this.p2.ReadOnly = true;
+            this.p2.RightToLeft = System.Windows.Forms.RightToLeft.No;
             this.p2.Size = new System.Drawing.Size(74, 20);
             this.p2.TabIndex = 17;
             this.p2.Text = "Играч 2";
             this.p2.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            this.p2.TextChanged += new System.EventHandler(this.p2_TextChanged);
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(268, 324);
+            this.ClientSize = new System.Drawing.Size(268, 325);
             this.Controls.Add(this.p2);
             this.Controls.Add(this.p1);
             this.Controls.Add(this.o_win_count);
