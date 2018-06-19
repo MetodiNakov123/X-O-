@@ -4,7 +4,7 @@
 _# Упатсво за користење_
 
 
- ![alt text](https://github.com/MetodiNakov123/X-O-/blob/master/X-O-/X-O/%D0%9F%D1%80%D0%BE%D0%B7%D0%BE%D1%801.png)
+ ![alt text](https://github.com/MetodiNakov123/X-O-/blob/master/X-O/%D0%9F%D1%80%D0%BE%D0%B7%D0%BE%D1%801.png)
  
  Слика 1
  
@@ -13,12 +13,12 @@ _# Упатсво за користење_
 На слика 1 е прикажан почетната форма. Овде е даден насловот и две копчиња на кои се бира дали играчот сака да игра против компјутер или друг играч. Оваа форма води кон форма 2:
 
 
- ![alt text](https://github.com/MetodiNakov123/X-O-/blob/master/X-O-/X-O/%D0%9F%D1%80%D0%BE%D0%B7%D0%BE%D1%8021.png)
+ ![](https://github.com/MetodiNakov123/X-O-/blob/master/X-O/%D0%9F%D1%80%D0%BE%D0%B7%D0%BE%D1%8021.png)
 
 Слика 2.1
  
 
- ![alt text](https://github.com/MetodiNakov123/X-O-/blob/master/X-O-/X-O/%D0%9F%D1%80%D0%BE%D0%B7%D0%BE%D1%8022.png)
+ ![](https://github.com/MetodiNakov123/X-O-/blob/master/X-O/%D0%9F%D1%80%D0%BE%D0%B7%D0%BE%D1%8022.png)
 
 Слика 2.2
 
@@ -28,7 +28,7 @@ _# Упатсво за користење_
 
 На слика 2.2 е прикажана втората состојба на форма 2, во која се внесуваат две имиња на двата играчи.  Оваа форма води кон главната форма, која е за играње.
 
-![alt text](https://github.com/MetodiNakov123/X-O-/blob/master/X-O-/X-O/%D0%9F%D0%B7%D1%80%D0%BE%D0%B7%D0%BE%D1%80%203.png)
+![](https://github.com/MetodiNakov123/X-O-/blob/master/X-O/%D0%9F%D0%B7%D1%80%D0%BE%D0%B7%D0%BE%D1%80%203.png)
 
 Слика 3
 
@@ -40,7 +40,7 @@ _# Упатсво за користење_
 
 Под нив се бројачите на победи. Тие бројат кој играч колку рунди победил, и колку од нив се нерешени. При победа на Играч 1 се зголемува бројот што се наоѓа под p1 и се
 
- ![alt text](https://github.com/MetodiNakov123/X-O-/blob/master/X-O-/X-O/%D0%9F%D1%80%D0%BE%D0%B7%D0%BE%D1%804.png)
+ ![](https://github.com/MetodiNakov123/X-O-/blob/master/X-O/prozor41.png)
  
  Слика 4
 
@@ -55,14 +55,14 @@ _# Упатсво за користење_
 
 Како податочна структура се користат самите елементи на главната форма. Копчињата се именувани по редица со буква (А,B или C) и по колона со број (1,2 или 3). Се добиваат копчињата A1,A2,B3,C3 итн... Со нив се манипулира за да се провери дали има победник и кое поле компјутерот да го одбери како негов следен потег.
 
- ![alt text](https://github.com/MetodiNakov123/X-O-/blob/master/X-O-/X-O/prozor5.png)
+ ![](https://github.com/MetodiNakov123/X-O-/blob/master/X-O/prozor5.png)
 
 Слика 5
 
 На слика 5 е прикажана функцијата која проверува дали има победник.  Проверува дали има 3 исти знаци хоризонтално, вертикално или дијагонално. Тоа го прави споредувајќи го текстот на копчињата. Ако пронајде победник (или е нерешено) ги заклучува сите копчиња и во messageBox кажува кој е победник.
 
 
- ![alt text](https://github.com/MetodiNakov123/X-O-/blob/master/X-O-/X-O/prozor6.png)
+ ![](https://github.com/MetodiNakov123/X-O-/blob/master/X-O/prozor6.png)
 
 Слика 6
 
